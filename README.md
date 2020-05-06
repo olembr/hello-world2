@@ -12,8 +12,8 @@ Following packages and ther dependendencies should be installed, before proceedi
 0. [ZED SDK](https://www.stereolabs.com/docs/installation/jetson/)
 0. [ZED Python API](https://github.com/stereolabs/zed-python-api)
 0. [scikit-learn](http://scikit-learn.org/stable/)
-0. [`scikit-image`](http://scikit-image.org/download)
-0. [`FilterPy`](https://github.com/rlabbe/filterpy)
+0. [scikit-image](http://scikit-image.org/download)
+0. [FilterPy](https://github.com/rlabbe/filterpy)
 ### Installation
 1. Install and configure a catkin ROS environment by following [the ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
 0. Clone this repository and copy the folder "jetsontx1_cvmodule" into the src folder in your ROS workspace where the ROS packages should be located.
