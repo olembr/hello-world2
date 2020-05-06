@@ -34,7 +34,8 @@ Instead of running behaviourdetection.py, you can play the rosbag file testbagfi
 ```
 rosbag play testbagfile.bag
 ```
-If subscribertest.py is allready running it should visualize the a sample of the published topic ”videostream”. Also print in the terminal information aboutdetected people ID and smile/face indication.
+If subscribertest.py is allready running it should visualize the a sample of the published topic ”videostream”. Also, it will print information about detected people ID and smile/face indication, in the terminal.
 
 **Note:** This installation is tested on a Jetson TX1 board running a version of Ubuntu 18.04 with ROS Melodic.
+
 **Note** Read the report on how to integrate the CV-module on the Jetson board with the Cyborg.
