@@ -5,10 +5,10 @@ This repository contains the source code for the ROS workspace including the NTN
 
 Node name: jetsontx1_cvmodule Language: Python
 ### Installation
-1 . Install and configure a catkin ROS environment by following [the ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
-2 . Clone this repository and copy the folder "jetsontx1_cvmodule" into your ROS workspace where the ROS packages should be located.
-3. Build the ROS package by using the command "catkin_make" in the catkin workspace terminal window.
-4. Locate the pyyolo folder in the terminal and install using the commands as following:
+1. Install and configure a catkin ROS environment by following [the ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
+0. Clone this repository and copy the folder "jetsontx1_cvmodule" into your ROS workspace where the ROS packages should be located.
+0. Build the ROS package by using the command "catkin_make" in the catkin workspace terminal window.
+0. Locate the pyyolo folder in the terminal and install using the commands as following:
     1. slkdfjaø
 
 **Note:** This
