@@ -5,12 +5,13 @@ This repository contains the source code for the ROS workspace including the NTN
 
 Node name: jetsontx1_cvmodule Language: Python
 ### Installation
-1 . Install and configure catkin ROS environment by following [the ROS tutorials]()
+1 . Install and configure a catkin ROS environment by following [the ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
+2 . Clone this repository and copy the folder "jetsontx1_cvmodule" into your ROS workspace where the ROS packages should be located.
+3. Build the ROS package by using the command "catkin_make" in the catkin workspace terminal window.
+4. Locate the pyyolo folder in the terminal and install using the commands as following:
+    1. slkdfjaø
 
-git clone 
-
-**Note:** A significant proportion of SORT's accuracy is attributed to the detections.
-For your convenience, this repo also contains *Faster* RCNN detections for the MOT benchmark sequences in the [benchmark format](https://motchallenge.net/instructions/). To run the detector yourself please see the original [*Faster* RCNN project](https://github.com/ShaoqingRen/faster_rcnn) or the python reimplementation of [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn) by Ross Girshick.
+**Note:** This
 
 **Also see:**
 A new and improved version of SORT with a Deep Association Metric implemented in tensorflow is available at [https://github.com/nwojke/deep_sort](https://github.com/nwojke/deep_sort) .
