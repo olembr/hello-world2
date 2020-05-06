@@ -41,4 +41,4 @@ If subscribertest.py is allready running it should visualize the a sample of the
 
 **Note:** This installation is tested on a Jetson TX1 board running a version of Ubuntu 18.04 with ROS Melodic.
 
-**Note** Read the report on how to integrate the CV-module on the Jetson board with the Cyborg.
+**Note:** Read the report on how to integrate the CV-module on the Jetson board with the Cyborg.
