@@ -21,10 +21,20 @@ Following packages and ther dependendencies should be installed, before proceedi
     0. python setup_gpu.py build
     0. sudo python setup_gpu.py install
 
-**Note:** This
-
 ### Run the system
 To launch the main code publishing info about detected human behaviour:
-´´´
+```
 rosrun jetsontx1_cvmodule behaviourdetection.py
-´´´
+```
+To launch the example of a code subscribing to the Topics published by behaviourdetection.py:
+```
+rosrun jetsontx1_cvmodule subscribertest.py
+```
+Instead of running behaviourdetection.py, you can play the rosbag file testbagfile.bag:
+```
+rosbag play testbagfile.bag
+```
+If subscribertest.py is allready running it should visualize the a sample of the published topic ”videostream”. Also print in the terminal information aboutdetected people ID and smile/face indication.
+
+**Note:** This installation is tested on a Jetson TX1 board running a version of Ubuntu 18.04 with ROS Melodic.
+**Note** Read the report on how to integrate the CV-module on the Jetson board with the Cyborg.
